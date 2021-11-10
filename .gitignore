@@ -6,13 +6,18 @@
 !.map-client-workflow.rdf
 !GeometricFit.conf
 !Muxer_1.conf
+!Muxer.conf
 !README.rst
 !ViewCreation.conf
 !map-client-workflow.proj
 !DataEmbedder_1.conf
+!DataEmbedder.conf
 !MBFXMLFile.conf
 !OrganScaffold.conf
 !ThumbnailExport.conf
 !WebGLExport.conf
 !mbfxml2exconverter.conf
+!ExportThumbnail.conf
+!ExportWebGL.conf
+
 
