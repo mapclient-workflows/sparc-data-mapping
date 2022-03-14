@@ -1,5 +1,5 @@
 [General]
-version=0.16.0
+version=0.17.0
 
 [nodes]
 nodelist\1\connections\size=0
@@ -9,6 +9,13 @@ nodelist\1\position=@Variant(\0\0\0\x1a@\x90|\0\0\0\0\0@x\xc0\0\0\0\0\0)
 nodelist\1\selected=false
 nodelist\1\source_uri=https://github.com/mapclient-plugins/mapclientplugins.argonsceneexporterstep.git
 nodelist\1\unique_identifier=76201140-3c98-11ec-ba50-faffc2364403
+nodelist\10\connections\size=0
+nodelist\10\identifier=ScaffoldAnnotations
+nodelist\10\name=File Location Sink
+nodelist\10\position=@Variant(\0\0\0\x1a@\x90\x80\0\0\0\0\0@O\x80\0\0\0\0\0)
+nodelist\10\selected=false
+nodelist\10\source_uri=https://github.com/mapclient-plugins/mapclientplugins.filelocationsinkstep
+nodelist\10\unique_identifier=df5a8eb0-a386-11ec-9008-faffc2364403
 nodelist\2\connections\size=0
 nodelist\2\identifier=WebGLExport
 nodelist\2\name=Argon Scene Exporter
@@ -28,7 +35,11 @@ nodelist\3\connections\3\connectedFromIndex=0
 nodelist\3\connections\3\connectedTo=5
 nodelist\3\connections\3\connectedToIndex=1
 nodelist\3\connections\3\selected=false
-nodelist\3\connections\size=3
+nodelist\3\connections\4\connectedFromIndex=2
+nodelist\3\connections\4\connectedTo=9
+nodelist\3\connections\4\connectedToIndex=0
+nodelist\3\connections\4\selected=false
+nodelist\3\connections\size=4
 nodelist\3\identifier=OrganScaffold
 nodelist\3\name=Mesh Generator
 nodelist\3\position=@Variant(\0\0\0\x1a@e\x80\0\0\0\0\0@_@\0\0\0\0\0)
@@ -109,7 +120,7 @@ nodelist\9\position=@Variant(\0\0\0\x1a@C\0\0\0\0\0\0@t\xc0\0\0\0\0\0)
 nodelist\9\selected=false
 nodelist\9\source_uri=https://github.com/mapclient-plugins/mapclientplugins.filechooserstep
 nodelist\9\unique_identifier=08dd5fe0-3dc2-11ec-933a-faffc2364403
-nodelist\size=9
+nodelist\size=10
 
 [view]
 rect=@Variant(\0\0\0\x14@$\0\0\0\0\0\0@$\0\0\0\0\0\0@\x93\xe4\0\0\0\0\0@\x8cp\0\0\0\0\0)
